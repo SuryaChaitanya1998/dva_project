@@ -4,9 +4,9 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("--type", dest="t", action="store", required=True)
 
-save_folder = "./data_in/"
-start_year = 2018
-end_year = 2019
+save_folder = "./data_in/2020/"
+start_year = 2020
+end_year = 2021
 
 
 def trigger_wget(file_type, url, year, month, ext):
